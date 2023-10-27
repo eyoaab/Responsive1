@@ -1,0 +1,749 @@
+*{
+    margin:0px;
+    border: 0px;
+    box-sizing: border-box;
+   scroll-behavior:smooth;
+   overflow-x: hidden;
+}
+.conteiner #button3{
+    width:5vw;
+    height: 3vh;
+    position: fixed;
+    margin-top: 1em;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    z-index: 2;
+    float: right;
+    right: 1vw;
+    display: none;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color:white;
+    padding-left: -3vw;
+}
+.conteiner{
+    margin:0px;
+    background-image: url('Background-3.png');
+    padding: 0px;
+    width:100%;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    display:flex;
+    flex-flow: row;
+    align-items: start;
+    gap:2%;
+    right:1vw;
+    margin-right: 0%;
+    height:15vh;
+    width:50%;
+    float: right;
+    padding-top:2em;
+    padding-right: 0vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content button{
+    overflow-x:visible;
+    height: 5vh;
+    width:6vw;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: transparent;
+
+}
+.content button a{
+    margin-left: -20px;
+    width:11vw;
+}
+.conteiner #yoru_car{
+    color: white;
+    width:10vw;
+    display: inline;
+    margin-left: 1em;
+    padding-top:20%;
+}
+.conteiner #yoru_car u{
+    text-decoration: none;
+    border-bottom:solid 3px darkred;
+}
+
+
+.motive{
+    width:30%;
+    text-align: center;
+    color:white;
+    float: right;
+    margin-top:18%;
+    display: block;
+    margin-right:-30%;
+
+}
+.motive h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.motive p{
+    font-size: 1.5em;
+}
+.motive button{
+    width:10vw;
+    height: 7vh;
+    margin-top: 2em;
+    color:black;
+     background-color: darkgray;
+    border: solid 1px darkgray;
+    border-radius: .5em;
+    cursor: pointer;
+   
+}
+.motive button img{
+    margin-top: 0em;
+    display: inline;
+    width:2vw;
+    height: 5vh;
+    margin-bottom: -.7em;
+
+}
+.motive button p{
+    display: inline;
+    height: 2vh;
+    margin-top: -10em;
+}
+/*now we procide to the about part*/
+
+.about{
+    height: 110vh;
+    display: flex;
+    flex-flow: row;
+    gap:2em;
+    margin-top: 3em;
+    padding-right: 0px;
+}
+.about .photo{
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+.about .discription {
+    padding-top:9vh;
+    text-align: center;
+    width: 50%;
+    padding-left: 1%;
+}
+.about .discription h2{
+    color: darkred;
+    font-size: 3em;
+    margin-bottom: .7em;
+}
+.about .discription p{
+    font-size: 1.3em;
+    text-align: center;
+    margin: 1em;
+}
+/*now we procede to the service part*/
+.service{
+    width:100%;
+    height: 100vh;
+    margin-top: 2em;
+    background-color: lightgrey;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.service .items{
+    display: flex;
+    flex-flow: row;
+    gap: 5%;
+
+}
+.service h1{
+    padding-top: 13vh;
+    padding-bottom: 20vh;
+}
+.service .items div img{
+    margin-bottom: 6vh;
+}
+.service .items div h2{
+margin-bottom:5vh;
+color:darkred
+}
+.service .items div p{
+    font-size: 1.3em;
+}
+/*now we proceed to the sample part*/
+.sample{
+    text-align: center;
+    width:100%;
+    background-color:rgb(100, 98, 98);
+    height: 140vh;
+}
+.sample h1{
+    color:gold;
+    padding-top: 9vh;
+}
+.sample .view{
+    margin-top: 8vh;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    gap:3%;
+    margin-left: 2%;
+    padding-left: 2%;
+    margin-right: 8%;
+    padding-right: 2%;
+    width:100%;
+ 
+}
+.sample .view div{
+    background-color: white;
+    width:25%;
+    padding-top: 4vh;
+    height: 90vh;
+    padding-left:2%;
+    padding-right:2%; 
+    box-shadow: 6px 2px 3px 1px rgb(13, 21, 27);
+}
+
+.sample .view div h3{
+    color: darkred;
+    margin-top: 1em;
+    margin-bottom:0.6vh;
+    font-size: 1.3em;
+}
+.sample .view div h5{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.sample .view div p{
+    font-size: 1.2em;
+    margin-bottom: 3vh;
+    color:rgb(43, 42, 42);
+}
+.sample .view div button p{
+    display:inline;
+    color: darkred;
+    margin-left: 0em;
+}
+.sample .view div button{
+    height:3vh;
+    margin-left: -10vw;
+    margin-bottom: .8em;
+    background-color: white;
+}
+/*now we proceed to the testimonie part*/
+.testimonie{
+    height: 220vh;
+    width:100%;
+    background-color:rgb(4, 19, 46);
+   overflow-x: visible;
+
+}
+.testimonie .carss{
+    background-image:url('cars Gallery.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125vh;
+    width:100%;
+
+}
+.testimonie .test{
+    width:50%;
+    text-align: center;
+    height:60vh;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 15vh;
+    padding-top: 10vh;
+   overflow-x: visible;
+
+}
+.testimonie .test p{
+    font-size: 1.2em;
+    padding: 2%;
+}
+
+.testimonie .test h3{
+    font-size: 1.4em;
+    color: darkred;
+    margin-top: 1em;
+}
+.testimonie .test #cover{
+    margin-right: -40vw;
+    margin-top: -10vh;
+}
+/*now we procide to the contact part*/
+.contact{
+    width:100%;
+    height:95vh;
+    text-align:center;
+    border-bottom: 4px solid darkred;
+    overflow-y: hidden;
+}
+.contact .icons{
+    display: flex;
+    flex-flow: row;
+    gap:2%;
+    margin-top: 15vh;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20vh;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.contact .icons img{
+    width:8vw;
+    height:8vh;
+}
+.contact .last{
+    display: flex;
+    flex-flow: row;
+    align-items:center;
+    justify-content: center;
+    gap:4%;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.contact .last div{
+    width:30%;
+}
+.contact .last div h2{
+    color:darkred;
+    margin-bottom: 2%;
+}
+.contact .last div p{
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+.contact .last div input{
+    border:solid black 1px;
+    height:7vh;
+    width:12vw;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+.contact .last div button{
+    height:5vh;
+    width:6vw;
+    margin-top: 1em;
+    color:white;
+    background-color: darkred;
+    font-size: 1em;
+    cursor: pointer;
+}
+.contact .last div #icon{
+    display: flex;
+    flex-flow: row;
+    align-items:center;
+    justify-content: center;
+    gap:1vw;
+    margin-top: 2vh; 
+    margin-left: 7vw;
+    cursor: pointer;
+}
+ table tr td{
+    padding-left: 1em;  
+    text-align: left; 
+}
+h6{
+font-weight: 100;
+}
+
+.contact .last div img{
+    display:inline;
+    margin-left: 0px;
+}
+.contact .last div h6{
+    display:inline;
+    font-size: 1.44em;
+}
+#copyRigt{
+    text-align: center;
+    font-size: 1.7em;
+    height:7vh;
+}
+#copyRigt h2{
+    font-size: 1em;
+    display:inline;
+    color:darkred;
+}
+@media screen and (max-width:1000px){
+    .motive button{
+        width:48%;
+        height: 5vh;  
+    }
+   
+    .motive button p{
+        display: inline;
+        height: 2vh;
+        padding-bottom: 2em;
+    }   
+    .content{
+        margin-right: 1%;
+        margin-left:-5em;
+        padding-right: -2em;
+        gap:.6em;
+        font-size: .9em;;
+
+    }
+    .content button{
+        margin-left: 1em;;
+    }
+    .testimonie .test{
+        width:60%;
+        text-align: center;
+        height:50vh;
+        background-color: white;
+        margin-left: 25%;
+        margin-top: 15vh;
+        padding-top: 10vh;
+    }
+    .contact .last div input{
+     
+        height:5vh;
+        width:10vw;
+        margin-top: 1em;
+        font-size: 1em;
+    }
+    .contact .last div button{
+        height:3vh;
+        width:8vw;
+        margin-top: 1em;
+    }
+    .sample .view div{
+        width:60vw;
+        height: 70vh;
+        padding-left:3%;
+    }
+    .sample .view{
+        padding-left: 7vw;
+    }
+    .sample .view{
+        margin-top: 8vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:3%;
+        margin-left: 2%;
+        padding-left: 2%;
+        margin-right: 8%;
+        padding-right: 2%;
+        overflow-y: hidden;
+    }
+    .sample .view div{
+        width:90%;
+        height: 70vh;
+    }
+    .sample{
+        height:170vh;
+    }
+
+}
+@media screen and (max-width:750px){
+    .content{
+        margin-right:2em;
+        overflow-x:visible;
+    }
+    .conteiner{
+        font-size: .9em;
+    }
+    .sample{
+        height:180vh;
+    }
+    .about{
+        height:100vh;
+        font-size: .9em;;
+    }
+    .testimonie .test{
+        width:60%;
+        height:60vh;
+        background-color: white;
+        margin-left: 25%;
+        padding-top: 8vh;
+        padding-bottom: 0px;
+        overflow: visible;
+    
+    }
+    .testimonie .test #cover{
+        margin-top: 10%;
+    }
+    .about .photo{
+        margin-top: 8em;
+    }
+   .service {
+    font-size:.9em;
+    }
+    .service img{
+        height:7vh;
+    }
+    .sample{
+    
+        overflow-y: hidden;
+    }
+    .sample .view div{
+        height: 72vh;
+        overflow-x: visible;
+    }
+    .contact .icons img{
+        height:7vh;
+        width:5vw
+    }
+    .contact{
+            height:90vh;
+            overflow-y: hidden;   
+             font-size: .8em; }
+    .contact .last div input{
+            height:3vh;   
+        }
+
+   }
+@media screen and (max-width:700px){
+    .about{
+        height:102vh
+    }
+    .conteiner{
+        background-image: url('Background-2.png');
+        padding: 0px;
+        width:100%;
+        height:100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+        .sample .view div{
+            height: 75vh;
+            overflow-x: visible;
+        }
+        .contact{
+            height:100vh;   }
+
+            .service h1{
+                margin: 0em;
+                padding: 4em;
+            }
+            .service{
+                height: 90vh;
+            }
+        }
+@media screen and (max-width:600px){
+
+       .conteiner .content{
+               display: grid;
+               grid-template-columns: 1fr;
+                width:20vw;
+                padding: 0;
+                z-index: 2;
+                margin: 0;
+                padding-right: 30vw;
+                background-color:black;
+                height: 35vh;
+                font-size: .8em;
+                overflow-x: visible;
+                margin-top:7%;
+                color:white;
+                display: none;
+                height:25vh;
+                text-align: center;
+            }
+            .conteiner .motive{
+                margin-top: 35vh;
+                margin-right:5vw;
+                display:block;
+                width:50vw;
+                color:white;
+                text-shadow: 0px 1px 0px  rgb(13, 21, 27);
+            }
+            .content button:hover{
+                width: 200%;
+                transform:scale(1.2);
+                }
+            .conteiner #button3{
+                display: block;
+                top:0;
+            }
+           
+            .about .photo{
+                display:none;
+
+            }
+            .about .discription{
+                width: 70%;
+                margin-left:10%;
+                height: auto;
+            }
+            .sample .view div{
+                height: 80vh;
+                overflow-x: visible;
+
+            }
+            .sample .view{
+                display: flex;
+                flex-flow:column;
+                align-items: center;
+                gap:4vh;
+                justify-content: center;
+                overflow-y: visible;
+                height:200vh;
+                margin-top: 5vh;
+                padding-top: 0;  
+                z-index: 5;  
+}
+.sample{
+    height: 230vh;
+   
+}
+}
+@media screen and (max-width:500px){
+    .service .items{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap:2vh;
+        margin-top: 1vh;
+    }
+    .service{
+        height:120vh;
+        overflow: hidden;
+        padding-top: 0;
+        padding: 0;
+        padding-left: 4vw;
+        
+    }
+    .about{
+        height: 110vh;
+
+    }
+    .service h1{
+        margin-bottom: 0px;
+        padding-bottom: 4vh;
+        padding-top: 8vh;}
+    .service .items div{
+        width:90%;
+        margin-bottom: 1vh;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .sample .view div{
+        height:90vh;  
+    }
+    .sample .view div p{
+        font-size: 1.1em;
+        width:100%;
+    }
+    .testimonie .test{
+
+        width:70%;
+        margin-left: 15%;
+        padding-bottom: 0px;
+    }
+    .contact{
+        height: 150vh;
+    }
+    .contact .last{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 1vh;
+        margin-top: 0;
+        padding-top: 0;
+
+    }
+    .contact .icons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:4vh;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: 5vh;
+        margin-left: 6vw;
+        margin-bottom: 7vh;
+
+    }
+    .contact .icons img{
+        height:10vh;
+        width:10vw;
+    }
+    .contact .last div{
+        width:80%;
+        margin-left: 0em;;
+        padding-top: 0;
+        height: 30vh;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0;
+     
+    }
+    .contact .last div input{
+        width:30vw;
+
+    }
+    .contact .last div button{
+        width:20vw;
+        height: 4vh;
+
+
+    }
+    .contact .last div #icon{
+        height: 10vh;
+    }
+    .service .items div h2{
+        margin-bottom: 2vh;
+        padding-bottom: 0;
+    }
+    .service .items div img{
+        margin-bottom: 1vh;
+        padding-bottom: 0;
+    }
+
+}
+@media screen and (max-width:400px){
+    .about .discription p{
+        font-size: 1.2em;
+        padding: 0;
+        margin: 0;
+    }
+    .about .discription{
+        width:100%;
+        padding: 0;
+        margin: 0;
+        margin-left: 1em;
+        margin-right: 1em;
+
+    }
+    .about{
+        height:85vh;
+    }
+    .sample .view{
+        height: 240vh;
+    }
+    .sample .view div{
+        height: 78vh; 
+    } 
+    .sample{
+        height: 270vh;
+    }
+.testimonie .test {
+        height: 70vh;
+        width:80%;
+    }
+    .testimonie{
+        height: 225vh;
+    }
+    .testimonie .test #cover{
+        margin-top: -1em;}
+    .contact{
+        height: 130vh;
+    }
+}
+
